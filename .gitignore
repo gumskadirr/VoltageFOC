@@ -1,0 +1,27 @@
+# Derleme ciktilari
+Debug/
+Release/
+build/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+
+# PC test ciktilari
+foc_test/sim/sim
+foc_test/sim_app/harness
+mt6701_test/build/
+
+# IDE / yerel
+.metadata/
+*.bak
+backup/
+_to_delete/
+
+# Uretici datasheet'i (telifli, depoya eklenmez)
+MT6701QT-STD.pdf
